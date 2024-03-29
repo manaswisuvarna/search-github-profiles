@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-weight: 200;
+    font-family: "Roboto",sans-serif;
+    word-wrap: break-word;
+    height: 100%;
+    }
+
+ .container
+ {
+    background-color: rgb(228, 207, 247);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+ }   
+
+ .search{
+    display: flex;
+    width: 50%;
+ }
+ .search input{
+    width: 100%;
+    padding: 0.5rem 1rem;
+ }
+
+ .search input:focus-visible{
+    outline: 1px solid  rgba(159, 61, 159, 0.849);;
+ }
+ .btn{
+    padding: 0.5rem 1rem;
+    background-color: rgba(159, 61, 159, 0.849);
+    color: aliceblue;
+    border: none;
+ }
+
+ .btn:hover{
+   box-shadow:1px 1px 2px purple ;
+    
+ }
+ .btn:active
+ {
+    background-color: rgba(110, 45, 110, 0.849);
+ }
+
+ .profile
+ {
+   padding:  3rem 2rem;
+ 
+   width: 100%;
+   
+   border-radius: 25px;
+   transition: 0.5s ease-in;
+   background-color: aliceblue;
+
+   box-shadow: 0 0 1rem black;
+ }
+ .profile:hover{
+   transform: rotate(-0.2deg) scale(1.01);
+   transition: 0.5s ease-in;
+ }
+ .avatar img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    
+ }
+
+ .topSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .left{
+display: flex;
+font-size: 0.6rem;
+align-items: center;
+gap: 1rem;
+ }
+
+
+ .about{
+    margin: 12px 0;
+ }
+ 
+ .statusSec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin:12px 0 ;
+    /* background-color: aqua; */
+    text-align: center;
+ }
